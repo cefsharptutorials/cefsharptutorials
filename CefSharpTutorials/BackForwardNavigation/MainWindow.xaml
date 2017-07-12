@@ -1,0 +1,21 @@
+﻿<Window x:Class="BackForwardNavigation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BackForwardNavigation"
+        xmlns:cefsharpwpf="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        mc:Ignorable="d"
+        Title="BackForwardNavigation" Height="350" Width="525">
+    <Grid>
+        <DockPanel>
+            <DockPanel LastChildFill="True" DockPanel.Dock="Top">
+                <Button Content="&lt;Back" Name="BackBtn" Click="BackBtn_Click"></Button>
+                <Button Content="Navigate" Name="NavigateBtn" Click="NavigateBtn_Click"></Button>
+                <Button Content="Forward&gt;" Name="ForwardBtn" Click="ForwardBtn_Click"></Button>
+                <TextBox Name="AddressBox"></TextBox>
+            </DockPanel>
+            <cefsharpwpf:ChromiumWebBrowser Address="github.com" FrameLoadEnd="ChromiumWebBrowser_OnFrameLoadEnd" Name="Browser"></cefsharpwpf:ChromiumWebBrowser>
+        </DockPanel>
+    </Grid>
+</Window>

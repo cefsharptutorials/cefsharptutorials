@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Css3Basics", "Css3Basics\Css3Basics.csproj", "{9ACDE4E2-1EEC-4C4D-9377-9C6C94038603}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackForwardNavigation", "BackForwardNavigation\BackForwardNavigation.csproj", "{99C558DC-F7C8-459F-BC5D-A968E49AB569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{9ACDE4E2-1EEC-4C4D-9377-9C6C94038603}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9ACDE4E2-1EEC-4C4D-9377-9C6C94038603}.Release|x64.ActiveCfg = Release|x64
 		{9ACDE4E2-1EEC-4C4D-9377-9C6C94038603}.Release|x64.Build.0 = Release|x64
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Debug|x64.ActiveCfg = Debug|x64
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Debug|x64.Build.0 = Debug|x64
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Release|x64.ActiveCfg = Release|Any CPU
+		{99C558DC-F7C8-459F-BC5D-A968E49AB569}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
