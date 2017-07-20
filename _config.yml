@@ -1,5 +1,5 @@
 name: CefSharp Tutorials
-description: 
+description:
 url: https://cefsharptutorials.github.io #place url
 baseurl: /cefsharptutorials/ #place folder name if site is served in subfolder
 permalink: /:title/
@@ -117,3 +117,5 @@ prose:
           label: "YouTube Video ID"
           help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
           type: "text"
+# Gems
+gems: [jekyll-paginate]
