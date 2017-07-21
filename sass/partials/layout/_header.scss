@@ -47,16 +47,11 @@
         }
 
         .logo {
-            @include paddinghack(100%, 127.27984, 28.97019); // use your logo dimensions here
             position: absolute;
             top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(1);
+            left: 0;
             transition: .3s all ease-in-out;
-            height: 100px;
             display: block;
-            max-width: 750px;
-            width: 50%;
 
             svg{
                 @extend %paddinghack;
