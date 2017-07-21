@@ -2,7 +2,6 @@ article{
     box-sizing: border-box;
     background: $box_bg;
     margin-bottom: 20px;
-    border: $box_line;
     position: relative;
 
     .content_container &{
@@ -21,6 +20,7 @@ article{
 
     img{
         transition: .3s all ease;
+        margin-bottom: 54px;
     }
 
     a:hover{
@@ -50,6 +50,17 @@ article{
     }
 
     .post_content{
+        p {
+            max-width: 700px;
+            margin-bottom:54px;
+            font-weight: $light;
+            line-height: 1.58;
+            letter-spacing: -.003em;
+
+            img {
+                margin-bottom: 0;
+            }
+        }
         .index &{
             padding-bottom: 50px;
         }
