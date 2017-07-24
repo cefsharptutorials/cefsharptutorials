@@ -2,6 +2,13 @@
 layout: index
 description: the good site of life
 ---
+
+<!--<form action="{{site.baseurl | replace: '//', '/'}}/search/index.html" method="get">
+    <label for="search-box">Search</label>
+    <input type="text" id="search-box" name="query">
+    <input type="submit" value="search">
+</form>-->
+
 {% for post in paginator.posts %}
     {% include article_index.html %}
 {% endfor %}
