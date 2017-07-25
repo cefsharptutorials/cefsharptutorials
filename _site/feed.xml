@@ -3,21 +3,20 @@
 	<channel>
 		<title>CefSharp Tutorials</title>
 		<description></description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://cefsharptutorials.github.io</link>
+		<atom:link href="https://cefsharptutorials.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>URL Navigation Using CefSharp</title>
+				<title>CefSharp Advanced</title>
 				
 				
-					<description>&lt;p&gt;If we need to create one-tabbed browser window, we need to add some C# handlers for window elements. But they are very simple too :)
-As in the previous tutorial you need to reference CefSharp NuGet package from the NuGet gallery.&lt;/p&gt;
+					<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod at tellus sit amet pellentesque. Integer fermentum turpis eget lacus tempus cursus. Aenean suscipit magna sem. Pellentesque quis placerat justo. Proin vulputate, odio non congue suscipit, purus ante ultrices turpis, non convallis est libero ut nibh. Praesent odio quam, iaculis a fermentum eu, congue sed dui. Quisque vehicula tristique libero, sed feugiat eros.&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Fri, 21 Jul 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/URL-Navigation-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/URL-Navigation-Using-CefSharp/</guid>
+				<pubDate>Tue, 25 Jul 2017 00:00:00 +0300</pubDate>
+				<link>https://cefsharptutorials.github.io/One-more-test-post/</link>
+				<guid isPermaLink="true">https://cefsharptutorials.github.io/One-more-test-post/</guid>
 			</item>
 		
 			<item>
@@ -29,8 +28,8 @@ As in the previous tutorial you need to reference CefSharp NuGet package from th
 </description>
 				
 				<pubDate>Thu, 13 Jul 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/CefSharp-Basics-Display-an-HTML5-CSS3-Webpage/</link>
-				<guid isPermaLink="true">http://localhost:4000/CefSharp-Basics-Display-an-HTML5-CSS3-Webpage/</guid>
+				<link>https://cefsharptutorials.github.io/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</link>
+				<guid isPermaLink="true">https://cefsharptutorials.github.io/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</guid>
 			</item>
 		
 	</channel>
