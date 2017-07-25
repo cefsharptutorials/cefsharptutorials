@@ -5,7 +5,7 @@ article{
     position: relative;
 
     .content_container &{
-        padding: 20px;
+        padding: 24px 0;
 
         p{
             padding: 0;
@@ -31,7 +31,6 @@ article{
 
     .category,
     .tags {
-        text-transform: uppercase;
 
         .index &{
             font-size: .7em;
@@ -91,11 +90,6 @@ article{
 
 .short{
     width: 100%;
-    border-bottom: $box_line;
-
-    &:hover{
-       background: darken($box_bg, 3%);
-    }
 
     a{
         display: block;

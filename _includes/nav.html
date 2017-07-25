@@ -3,7 +3,7 @@
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
             <ul>
-                <li>
+               <!-- <li>
                     <a href="{{ site.baseurl | replace: '//', '/' }}/page">Page</a>
                 </li>
                 <li>
@@ -21,7 +21,20 @@
                         <li><a href="/child2">child</a></li>
                         <li><a href="/child3">child</a></li>
                     </ul>
-                </li>
+                </li>-->
+                <ul class="category_list">
+                    {% assign category_list = site.categories %}
+                    {% if category_list.first[0] == null %}
+                    {% for category in category_list %}
+                    <li><a href="{{ site.category_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ category }}">{{ category }}</a></li>
+                    {% endfor %}
+                    {% else %}
+                    {% for category in category_list %}
+                    <li><a href="{{ site.category_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ category[0] }}">{{ category[0] }}</a></li>
+                    {% endfor %}
+                    {% endif %}
+                    {% assign category_list = nil %}
+                </ul>
             </ul>
         </nav>
         <nav class="iconnav">
@@ -29,7 +42,7 @@
                 <li class="sicon">
                     <a href='#search'><i class='fa fa-search'></i></a>
                 </li>
-                {% if site.tumblr %}
+               <!-- {% if site.tumblr %}
                     <li class="social">
                         <a href="{{ site.tumblr }}" class="tumblr"><i class="fa fa-tumblr"></i></a>
                     </li>
@@ -56,15 +69,15 @@
                     <li class="social">
                         <a href="{{ site.facebook }}" class="facebook"><i class="fa fa-facebook"></i></a>
                     </li>
-                {% endif %}
+                {% endif %}-->
 
-                {% if site.youtube %}
+<!--                {% if site.youtube %}
                     <li class="social">
                         <a href="{{ site.youtube }}" class="youtube"><i class="fa fa-youtube"></i></a>
                     </li>
-                {% endif %}
+                {% endif %}-->
 
-                {% if site.vimeo %}
+               <!-- {% if site.vimeo %}
                     <li class="social">
                         <a href="{{ site.vimeo }}" class="vimeo"><i class="fa fa-vimeo-square"></i></a>
                     </li>
@@ -74,7 +87,7 @@
                     <li class="social">
                         <a href="{{ site.soundcloud }}" class="soundcloud"><i class="fa fa-soundcloud"></i></a>
                     </li>
-                {% endif %}
+                {% endif %}-->
             </ul>
         </nav>
         <a href='#menu' class="toggle_link noline">

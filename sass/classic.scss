@@ -4,11 +4,6 @@
 $imgchange: 775px;
 
 .articles{
-    width: 75%;
-
-    @media screen and (max-width: $sidebarcollapse){
-        width: 100%;
-    }
 
     article{
         position: relative;

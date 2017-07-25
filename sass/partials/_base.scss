@@ -8,7 +8,7 @@ $line: 1px solid $sand;
 $main_font-family: $roboto;
 $main_font-weight: $light;
 $body_bg-color: $white;
-$body_bg-img: url(/img/swirl.jpg); // adjust if you use baseurl, place this before as it will not automatically be added
+$body_bg-img: url(../img/texture.jpg); // adjust if you use baseurl, place this before as it will not automatically be added
 $main_color: $black;
 $root_font_size: 20px;
 $general_line-height: 1.73;
@@ -22,12 +22,12 @@ $h_font-weight: $medium;
 $h_text_transform: none;
 
 // Links
-$a_color: $magenta;
-$a_hover_color: $blue;
+$a_color: $blue;
+$a_hover_color: $blue_hover;
 $a_line: $blue 1px solid;
 
 // Content
-$max-width: 1500px;
+$max-width: 840px;
 $content-width: 90%;
 $box_bg: $white;
 $box_line: $line;
@@ -40,7 +40,7 @@ $from_noslogan_to_icon: 640px;
 $head_bg: $box_bg;
 
 // search overlay
-$so_bg: rgba(white, .8);
+$so_bg: rgba(white, .95);
 $so_color: black;
 
 // Menu
