@@ -45,7 +45,7 @@ $(document).ready(function() {
         var id = $(this).attr("id");
 
         // adjust link here
-        $("#switch_style").attr("href", "/css/" + id + ".css");
+        $("#switch_style").attr("href", "/cefsharptutorials/css/" + id + ".css");
     });
 
     if($('.articles').find('div.wrapper').length != 0){

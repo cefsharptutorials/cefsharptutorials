@@ -13,11 +13,7 @@ $twotoone: 530px;
     }
 
     article{
-        @include rowMachine(4, 2%, 25px);
-
-        @media screen and (max-width: $fourtothree){
-            @include rowMachine(3, 2%, 25px);
-        }
+        @include rowMachine(3, 4.5%, 25px);
 
         @media screen and (max-width: $threetotwo){
             @include rowMachine(2, 3%, 25px);

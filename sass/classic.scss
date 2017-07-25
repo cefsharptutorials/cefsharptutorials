@@ -9,6 +9,10 @@ $imgchange: 775px;
         position: relative;
         @extend %clearfix;
 
+        h1{
+            padding-top: 0;
+        }
+
         img,
         > iframe {
             width: 30%;
@@ -25,27 +29,18 @@ $imgchange: 775px;
         }
 
         @media screen and (min-width: $imgchange + 1){
-            &:nth-of-type(even){
-                img,
-                > iframe,
-                .video_container {
-                    float: left;
-                    margin-right: 15px;
-                }
 
-                .date{
-                    left: calc(30% + 5px);
-                }
+            img,
+            > iframe,
+            .video_container {
+                float: left;
+                margin-right: 40px;
             }
 
-            &:nth-of-type(odd){
-                img,
-                > iframe,
-                .video_container{
-                    float: right;
-                    margin-left: 15px;
-                }
+            .date{
+                left: calc(30% + 5px);
             }
+
         }
     }
 }

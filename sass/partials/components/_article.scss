@@ -12,12 +12,6 @@ article{
         }
     }
 
-    .index & h1,
-    .index & p,
-    .index & span{
-        padding: 10px;
-    }
-
     img{
         transition: .3s all ease;
         margin-bottom: 54px;
@@ -42,9 +36,6 @@ article{
         .index &{
             font-size: .7em;
             opacity: .6;
-            position: absolute;
-            bottom: 10px;
-            left: 5px;
         }
     }
 
@@ -77,6 +68,16 @@ article{
 
     ol{
         list-style: decimal;
+    }
+
+    .info_list{
+        list-style: none;
+        padding: 0;
+
+        li{
+            display: inline-block;
+            padding: 0 15px 0 0;
+        }
     }
 }
 
