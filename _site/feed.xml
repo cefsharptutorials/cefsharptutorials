@@ -3,8 +3,8 @@
 	<channel>
 		<title>CefSharp Tutorials</title>
 		<description></description>
-		<link>https://cefsharptutorials.github.io</link>
-		<atom:link href="https://cefsharptutorials.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>CefSharp Advanced</title>
@@ -15,8 +15,24 @@
 </description>
 				
 				<pubDate>Tue, 25 Jul 2017 00:00:00 +0300</pubDate>
-				<link>https://cefsharptutorials.github.io/One-more-test-post/</link>
-				<guid isPermaLink="true">https://cefsharptutorials.github.io/One-more-test-post/</guid>
+				<link>http://localhost:4000/One-more-test-post/</link>
+				<guid isPermaLink="true">http://localhost:4000/One-more-test-post/</guid>
+			</item>
+		
+			<item>
+				<title>URL Navigation Using CefSharp</title>
+				
+				
+					<description>&lt;p&gt;If we need to create a one-tabbed browser window, we’ll have to add some C# handlers for window elements. But they are very simple too.
+As in the previous tutorial you need to reference CefSharp NuGet package from the NuGet gallery.
+And now we’ll create a simple browser window with navigation.
+Markup of the MainWindow.xaml (bold are the changes of template):&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 21 Jul 2017 00:00:00 +0300</pubDate>
+				<link>http://localhost:4000/URL-Navigation-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://localhost:4000/URL-Navigation-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
@@ -28,8 +44,8 @@
 </description>
 				
 				<pubDate>Thu, 13 Jul 2017 00:00:00 +0300</pubDate>
-				<link>https://cefsharptutorials.github.io/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</link>
-				<guid isPermaLink="true">https://cefsharptutorials.github.io/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</guid>
+				<link>http://localhost:4000/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</link>
+				<guid isPermaLink="true">http://localhost:4000/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</guid>
 			</item>
 		
 	</channel>
