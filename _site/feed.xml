@@ -10,8 +10,10 @@
 				<title>URL Navigation Using CefSharp</title>
 				
 				
-					<description>&lt;p&gt;If we need to create one-tabbed browser window, we need to add some C# handlers for window elements. But they are very simple too :)
-As in the previous tutorial you need to reference CefSharp NuGet package from the NuGet gallery.&lt;/p&gt;
+					<description>&lt;p&gt;If we need to create a one-tabbed browser window, we’ll have to add some C# handlers for window elements. But they are very simple too.
+As in the previous tutorial you need to reference CefSharp NuGet package from the NuGet gallery.
+And now we’ll create a simple browser window with navigation.
+Markup of the MainWindow.xaml (bold are the changes of template):&lt;/p&gt;
 
 </description>
 				
@@ -24,7 +26,9 @@ As in the previous tutorial you need to reference CefSharp NuGet package from th
 				<title>CefSharp Basics. Display an HTML5/CSS3 Webpage</title>
 				
 				
-					<description>&lt;p&gt;.NET Framework contains the default WebBrowser component which allows to display the web pages inside of your desktop applications. But if you need to display the perfect interactive web page with HTML5 / CSS3 / Flash / whatever else, there are a lot of issues, because the built-in WebBrowser component does not support these features.&lt;/p&gt;
+					<description>&lt;p&gt;.NET Framework contains the default WebBrowser component which allows to display the web pages inside of your desktop applications. But if you need to display the perfect interactive web page with HTML5 / CSS3 / Flash / whatever else, there are a lot of issues, because the built-in WebBrowser component does not support these features.&lt;br /&gt;
+I have found a few solutions and chose an open-source CefSharp. It is pretty easy to install and get it work with WinForms/WPF application (the sample below is for WPF). There’s a restriction to be aware of: the .NET Framework version should be at least 4.5.2.&lt;br /&gt;
+This component is provided in the NuGet.org gallery, so you can add it to your solution via the Package Manager:&lt;/p&gt;
 
 </description>
 				
