@@ -5,17 +5,11 @@ article{
     position: relative;
 
     .content_container &{
-        padding: 20px;
+        padding: 24px 0;
 
         p{
             padding: 0;
         }
-    }
-
-    .index & h1,
-    .index & p,
-    .index & span{
-        padding: 10px;
     }
 
     img{
@@ -31,7 +25,6 @@ article{
 
     .category,
     .tags {
-        text-transform: uppercase;
 
         .index &{
             font-size: .7em;
@@ -43,9 +36,6 @@ article{
         .index &{
             font-size: .7em;
             opacity: .6;
-            position: absolute;
-            bottom: 10px;
-            left: 5px;
         }
     }
 
@@ -79,6 +69,16 @@ article{
     ol{
         list-style: decimal;
     }
+
+    .info_list{
+        list-style: none;
+        padding: 0;
+
+        li{
+            display: inline-block;
+            padding: 0 15px 0 0;
+        }
+    }
 }
 
 .wrapper{
@@ -91,11 +91,6 @@ article{
 
 .short{
     width: 100%;
-    border-bottom: $box_line;
-
-    &:hover{
-       background: darken($box_bg, 3%);
-    }
 
     a{
         display: block;

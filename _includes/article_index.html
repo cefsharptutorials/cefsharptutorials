@@ -38,14 +38,17 @@
             {% endif %}
         {% endif %}
     {% endif %}
-    {% if post.category %}
-        <span class="category">
-            {{ post.category }}
-        </span>
-    {% endif %}
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">
         <h1>{{ post.title }}</h1>
     </a>
     <p class="post_content">{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="date"><i class="fa fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }}</span>
+    <!--<ul class="info_list">
+        {% if post.category %}
+        <li><span class="category">
+            {{ post.category }}
+        </span>
+        </li>
+        {% endif %}
+        <li> <span class="date"><i class="fa fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }}</span></li>
+    </ul>-->
 </article>

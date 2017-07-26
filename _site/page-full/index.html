@@ -245,7 +245,7 @@
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
             <ul>
-                <li>
+               <!-- <li>
                     <a href="/cefsharptutorials//page">Page</a>
                 </li>
                 <li>
@@ -263,7 +263,18 @@
                         <li><a href="/child2">child</a></li>
                         <li><a href="/child3">child</a></li>
                     </ul>
-                </li>
+                </li>-->
+                <ul class="category_list">
+                    
+                    
+                    
+                    <li><a href="/cefsharptutorials/category/Basics">Basics</a></li>
+                    
+                    <li><a href="/cefsharptutorials/category/Advanced">Advanced</a></li>
+                    
+                    
+                    
+                </ul>
             </ul>
         </nav>
         <nav class="iconnav">
@@ -271,7 +282,7 @@
                 <li class="sicon">
                     <a href='#search'><i class='fa fa-search'></i></a>
                 </li>
-                
+               <!-- 
                     <li class="social">
                         <a href="#" class="tumblr"><i class="fa fa-tumblr"></i></a>
                     </li>
@@ -298,15 +309,15 @@
                     <li class="social">
                         <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                     </li>
-                
+                -->
 
-                
+<!--                
                     <li class="social">
-                        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/channel/UCW-4v-bHIbUqXVstXNYSv1Q" class="youtube"><i class="fa fa-youtube"></i></a>
                     </li>
-                
+                -->
 
-                
+               <!-- 
                     <li class="social">
                         <a href="#" class="vimeo"><i class="fa fa-vimeo-square"></i></a>
                     </li>
@@ -316,7 +327,7 @@
                     <li class="social">
                         <a href="#" class="soundcloud"><i class="fa fa-soundcloud"></i></a>
                     </li>
-                
+                -->
             </ul>
         </nav>
         <a href='#menu' class="toggle_link noline">
@@ -327,9 +338,11 @@
 
         </header>
         <div id="search">
-    <form role="search" id="searchform">
-        <input type="search" placeholder="Search"/>
+
+    <form role="search" id="searchform" action="/cefsharptutorials//search/index.html" method="get">
+        <input type="search" id="search-box" name="query" placeholder="Search" autofocus />
     </form>
+
 </div>
 
         <section class="margin">
@@ -359,7 +372,7 @@
         </section>
         <footer>
     <div class="content">
-        <span>&copy; twister</span>
+        <span>&copy; CefSharp Tutorials</span>
         <span class="backtotop">back to top</span>
     </div>
 </footer>

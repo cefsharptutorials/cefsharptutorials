@@ -1,9 +1,4 @@
 .content_container{
-    width: 75%;
-
-    @media screen and (max-width: $sidebarcollapse){
-        width: 100%;
-    }
 
     .full &{
         width: 100%;
@@ -16,7 +11,6 @@
 
     .meta{
         margin: 0 0 54px;
-        padding: 10px 0;
     }
 
     .featsection{
@@ -26,9 +20,9 @@
     .catsandtags{
         margin: 20px 0;
         padding: 10px 0;
-        border-top: $box_line;
-        border-bottom: $box_line;
-        line-height: 2.5;
+        line-height: 1.5;
+        font-size: 16px;
+        color: $mediumgray;
 
         .category,
         .tags{
@@ -50,9 +44,8 @@
         margin: 20px 0;
 
         a{
-            padding: 5px 10px;
-            border: $line;
             background: $white;
+            @extend a;
         }
 
         .prev{

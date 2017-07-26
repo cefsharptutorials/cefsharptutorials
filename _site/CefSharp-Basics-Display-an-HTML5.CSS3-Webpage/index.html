@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-<title>CefSharp Tutorials</title>
-<meta name="description" content="the good site of life">
+<title>CefSharp Tutorials - CefSharp Basics. Display an HTML5/CSS3 Webpage </title>
+
 <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="/cefsharptutorials//css/main.css">
@@ -12,7 +12,7 @@
 
     </head>
 
-    <body class="index">
+    <body>
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="display:none;">
     <defs>
         <symbol id="twinsister_logo">
@@ -231,8 +231,8 @@
     </defs>
 </svg>
 
-       <header class="head">
-           <div class="row">
+        <header class="head">
+            <div class="row">
     <div class="content">
         <a href="/cefsharptutorials//" class="logo noline">
             <strong class="twister">CefSharp Tutorials</strong>
@@ -240,7 +240,7 @@
     </div>
 </div>
 
-           <section class="main_menu">
+            <section class="main_menu">
     <div class="content">
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
@@ -347,86 +347,67 @@
 
         <section class="margin">
             <div class="content">
-                <p class="switch">switch layout: <span id="grid">Grid</span> &bull; <span id="classic">Classic</span></p>
-                
-                <div class="articles">
-                    
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/One-more-test-post/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/One-more-test-post/">
-        <h1>CefSharp Advanced</h1>
-    </a>
-    <p class="post_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod at tellus sit amet pellentesque....</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Advanced
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 25, 2017</span></li>
-    </ul>-->
-</article>
+                <div class="content_container">
+                    <article>
+                        
+
+                        <h1 class="post_title">
+                            CefSharp Basics. Display an HTML5/CSS3 Webpage
+                        </h1>
+                        <div class="meta">
+                            
 
 
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp/">
-        <h1>URL Navigation Using CefSharp</h1>
-    </a>
-    <p class="post_content">If we need to create a one-tabbed browser window, we’ll have to add some C#...</p>
-    <!--<ul class="info_list">
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 21, 2017</span></li>
-    </ul>-->
-</article>
+                            <span class="date">
+                                Published on July 13, 2017
+                            </span>
+                        </div>
+                        
+                            
+                                <img class="featimg" src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
+                            
+                        
+                        <div class="post_content">
+                            <p>.NET Framework contains the default WebBrowser component which allows to display the web pages inside of your desktop applications. But if you need to display the perfect interactive web page with HTML5 / CSS3 / Flash / whatever else, there are a lot of issues, because the built-in WebBrowser component does not support these features.</p>
 
+<p>I have found a few solutions and chose an open-source CefSharp. It is pretty easy to install and get it work with WinForms/WPF application (the sample below is for WPF). There’s a restriction to be aware of: the .NET Framework version should be at least 4.5.2.</p>
 
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/">
-        <h1>CefSharp Basics. Display an HTML5/CSS3 Webpage</h1>
-    </a>
-    <p class="post_content">.NET Framework contains the default WebBrowser component which allows to display the web pages inside...</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Basics
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 13, 2017</span></li>
-    </ul>-->
-</article>
+<p>This component is provided in the NuGet.org gallery, so you can add it to your solution via the Package Manager:</p>
 
+<p><img src="/cefsharptutorials/img/CefSharpBasicsPackageManager.png" alt="image-title-here" class="img-responsive" /></p>
 
+<p>Please note that you need to select specific x64/x68 configuration because the CefSharp should define which native binaries are needed.</p>
 
+<p>After you referenced CefSharp package, you can use it. The source code of WPF window is provided below. The bold lines are only changes in MainWindow in the default WPF app template:</p>
 
+<script src="https://gist.github.com/cefsharptutorials/293648782c1c41d1bb589816a3d4ce49.js"></script>
 
+<p>And it works!</p>
+
+                        </div>
+                        
+                        <div class="catsandtags">
+                            
+                            <p class="category">
+                                <span class="name">Categories:</span>
+                                Basics
+                            </p>
+                            
+                            
+                            <p class="tags">
+                                <span class="name">Tags:</span>
+                                
+                            </p>
+                            
+                        </div>
+                        
+                    </article>
+                    <div class="post_nav">
+                        
+                        
+                        <a class="next" href="/cefsharptutorials/URL-Navigation-Using-CefSharp/"><span class="short">next </span><span class="long">post </span><i class="fa fa-angle-right"></i></a>
+                        
+                    </div>
                 </div>
             </div>
         </section>

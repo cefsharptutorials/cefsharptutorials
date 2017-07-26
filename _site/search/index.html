@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
 <title>CefSharp Tutorials</title>
-<meta name="description" content="the good site of life">
+
 <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="/cefsharptutorials//css/main.css">
@@ -347,86 +347,46 @@
 
         <section class="margin">
             <div class="content">
-                <p class="switch">switch layout: <span id="grid">Grid</span> &bull; <span id="classic">Classic</span></p>
-                
-                <div class="articles">
+                <div class="content_container">
                     
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/One-more-test-post/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/One-more-test-post/">
-        <h1>CefSharp Advanced</h1>
-    </a>
-    <p class="post_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod at tellus sit amet pellentesque....</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Advanced
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 25, 2017</span></li>
-    </ul>-->
-</article>
+                    <div class="articles">
+                        <ul id="search-results"></ul>
 
-
-    <article>
-    
+<script>
+    window.store = {
         
-            
-                <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
+        "one-more-test-post": {
+            "title": "CefSharp Advanced",
+                "author": "",
+                "category": "Advanced",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod at tellus sit amet pellentesque. Integer fermentum turpis eget lacus tempus cursus. Aenean suscipit magna sem. Pellentesque quis placerat justo. Proin vulputate, odio non congue suscipit, purus ante ultrices turpis, non convallis est libero ut nibh. Praesent odio quam, iaculis a fermentum eu, congue sed dui. Quisque vehicula tristique libero, sed feugiat eros.Curabitur lacinia vestibulum magna, at ultricies odio hendrerit a. Donec facilisis vulputate ligula, eget mattis est convallis a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam consequat nunc lorem, id efficitur arcu varius vitae. Nam sollicitudin nec libero et feugiat. Aenean consequat nibh id tortor cursus pharetra. Maecenas rhoncus accumsan tempus. Sed euismod tincidunt nunc in scelerisque. Aliquam porta pretium egestas. Nullam nec dapibus enim. Duis quam felis, tempus non massa id, fermentum bibendum lacus.Pellentesque arcu dolor, viverra eu lorem in, blandit placerat orci. Praesent at neque sollicitudin, condimentum tellus non, blandit ligula. Phasellus commodo quis nisi in tempor. Nullam elit lacus, vehicula id nulla ut, facilisis mattis mauris. Mauris malesuada in nulla sodales iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque elementum commodo ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "url": "/cefsharptutorials//One-more-test-post/"
+        }
+        ,
         
-    
-    <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp/">
-        <h1>URL Navigation Using CefSharp</h1>
-    </a>
-    <p class="post_content">If we need to create a one-tabbed browser window, we’ll have to add some C#...</p>
-    <!--<ul class="info_list">
+        "url-navigation-using-cefsharp": {
+            "title": "URL Navigation Using CefSharp",
+                "author": "",
+                "category": "",
+                "content": "If we need to create a one-tabbed browser window, we’ll have to add some C# handlers for window elements. But they are very simple too.As in the previous tutorial you need to reference CefSharp NuGet package from the NuGet gallery.And now we’ll create a simple browser window with navigation.Markup of the MainWindow.xaml (bold are the changes of template):The C# source code of the MainWindow:As you can see, the explicit actions with the Browser are very simple and self-describing. We only need to make sure that action is available and perform it.This sample contains Back, Forward, and Navigation actions. Also the AddressBox contains the navigated URL.Here is what the output of this example looks like:",
+            "url": "/cefsharptutorials//URL-Navigation-Using-CefSharp/"
+        }
+        ,
         
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 21, 2017</span></li>
-    </ul>-->
-</article>
-
-
-    <article>
-    
+        "cefsharp-basics-display-an-html5-css3-webpage": {
+            "title": "CefSharp Basics. Display an HTML5/CSS3 Webpage",
+                "author": "",
+                "category": "Basics",
+                "content": ".NET Framework contains the default WebBrowser component which allows to display the web pages inside of your desktop applications. But if you need to display the perfect interactive web page with HTML5 / CSS3 / Flash / whatever else, there are a lot of issues, because the built-in WebBrowser component does not support these features.I have found a few solutions and chose an open-source CefSharp. It is pretty easy to install and get it work with WinForms/WPF application (the sample below is for WPF). There’s a restriction to be aware of: the .NET Framework version should be at least 4.5.2.This component is provided in the NuGet.org gallery, so you can add it to your solution via the Package Manager:Please note that you need to select specific x64/x68 configuration because the CefSharp should define which native binaries are needed.After you referenced CefSharp package, you can use it. The source code of WPF window is provided below. The bold lines are only changes in MainWindow in the default WPF app template:And it works!",
+            "url": "/cefsharptutorials//CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/"
+        }
         
-            
-                <a href="/cefsharptutorials/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
         
-    
-    <a href="/cefsharptutorials/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/">
-        <h1>CefSharp Basics. Display an HTML5/CSS3 Webpage</h1>
-    </a>
-    <p class="post_content">.NET Framework contains the default WebBrowser component which allows to display the web pages inside...</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Basics
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 13, 2017</span></li>
-    </ul>-->
-</article>
-
-
-
-
-
+    };
+</script>
+<script src="../js/lunr.min.js"></script>
+<script src="../js/search.js"></script>
+                    </div>
                 </div>
             </div>
         </section>

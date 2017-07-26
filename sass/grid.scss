@@ -7,22 +7,13 @@ $twotoone: 530px;
 
 .articles{
     @include flexbox(row, wrap, flex-start, stretch);
-    width: 75%;
-
-    @media screen and (max-width: $sidebarcollapse){
-        width: 100%;
-    }
 
     @media screen and (max-width: $twotoone){
         justify-content: center;
     }
 
     article{
-        @include rowMachine(4, 1%, 25px);
-
-        @media screen and (max-width: $fourtothree){
-            @include rowMachine(3, 1%, 25px);
-        }
+        @include rowMachine(3, 4.5%, 25px);
 
         @media screen and (max-width: $threetotwo){
             @include rowMachine(2, 3%, 25px);

@@ -27,14 +27,14 @@
     font-size:7px;
     font-weight:200;
     line-height:125%;
-    fill:$magenta;
+    fill:$blue;
     transition: .3s all ease;
 }
 
 a:hover{
     svg{
         .icon{
-            fill:$magenta;
+            fill:$blue;
             stroke:$coal;
         }
 
