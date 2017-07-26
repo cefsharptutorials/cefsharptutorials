@@ -1,6 +1,6 @@
 ---
 layout: post
-featimg: CefSharpBasicsDisplayanHTML5CSS3Webpage.png
+featimg: URLNavigationHeader.png
 title: One-Tabbed Browser with URL Navigation in WPF Application Using CefSharp
 homedisplay: featimg
 ---
