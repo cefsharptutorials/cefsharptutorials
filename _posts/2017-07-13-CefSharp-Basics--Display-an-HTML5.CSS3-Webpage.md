@@ -7,6 +7,7 @@ homedisplay: featimg
 ---
 .NET Framework contains the default WebBrowser component which allows to display the web pages inside of your desktop applications. But if you need to display the perfect interactive web page with HTML5 / CSS3 / Flash / whatever else, there are a lot of issues, because the built-in WebBrowser component does not support these features.
 
+
 I have found a few solutions and chose an open-source CefSharp. It is pretty easy to install and get it work with WinForms/WPF application (the sample below is for WPF). There's a restriction to be aware of: the .NET Framework version should be at least 4.5.2.
 
 This component is provided in the NuGet.org gallery, so you can add it to your solution via the Package Manager:

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-<title>CefSharp Tutorials - Ooops! </title>
+<title>CefSharp Tutorials - URL Navigation Using CefSharp </title>
 
 <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
 <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:500,600' rel='stylesheet' type='text/css'>
@@ -12,7 +12,7 @@
 
     </head>
 
-    <body class="index">
+    <body>
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="display:none;">
     <defs>
         <symbol id="twinsister_logo">
@@ -231,8 +231,8 @@
     </defs>
 </svg>
 
-       <header class="head">
-           <div class="row">
+        <header class="head">
+            <div class="row">
     <div class="content">
         <a href="/cefsharptutorials//" class="logo noline">
             <strong class="twister">CefSharp Tutorials</strong>
@@ -240,7 +240,7 @@
     </div>
 </div>
 
-           <section class="main_menu">
+            <section class="main_menu">
     <div class="content">
         <nav id="menu">
             <a class="toggle_link noline"><i class="fa fa-close fa-lg"></i></a>
@@ -347,120 +347,69 @@
 
         <section class="margin">
             <div class="content">
-                <p class="switch">switch layout: <span id="grid">Grid</span> &bull; <span id="classic">Classic</span></p>
-                <h1 class="title">Ooops!</h1>
-                <div class="articles">
-                    <div class="error">
-    <p>Something seems to have gone wrong here. Sorry 'bout that</p>
-    <p>Maybe we can make up for it with some posts and then be friends again?</p>
-</div>
+                <div class="content_container">
+                    <article>
+                        
+
+                        <h1 class="post_title">
+                            URL Navigation Using CefSharp
+                        </h1>
+                        <div class="meta">
+                            
 
 
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp3/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp3/">
-        <h1>URL Navigation Using CefSharp</h1>
-    </a>
-    <p class="post_content">If we need to create a one-tabbed browser window, we’ll have to add some C#...</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Advanced
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 21, 2017</span></li>
-    </ul>-->
-</article>
+                            <span class="date">
+                                Published on July 21, 2017
+                            </span>
+                        </div>
+                        
+                            
+                                <img class="featimg" src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
+                            
+                        
+                        <div class="post_content">
+                            <p>If we need to create a one-tabbed browser window, we’ll have to add some C# handlers for window elements. But they are very simple too.
+As in the previous tutorial you need to reference CefSharp NuGet package from the NuGet gallery.
+And now we’ll create a simple browser window with navigation.
+Markup of the MainWindow.xaml (bold are the changes of template):</p>
 
+<script src="https://gist.github.com/cefsharptutorials/1e26ac1ff1dcefe112ce80c0592a44d8.js"></script>
 
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp2/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp2/">
-        <h1>URL Navigation Using CefSharp</h1>
-    </a>
-    <p class="post_content">If we need to create a one-tabbed browser window, we’ll have to add some C#...</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Advanced
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 21, 2017</span></li>
-    </ul>-->
-</article>
+<p>The C# source code of the MainWindow:</p>
 
+<script src="https://gist.github.com/cefsharptutorials/86e630b9baa08a2d3b5e230a2d49afa8.js"></script>
 
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/URL-Navigation-Using-CefSharp/">
-        <h1>URL Navigation Using CefSharp</h1>
-    </a>
-    <p class="post_content">If we need to create a one-tabbed browser window, we’ll have to add some C#...</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Advanced
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 21, 2017</span></li>
-    </ul>-->
-</article>
+<p>As you can see, the explicit actions with the Browser are very simple and self-describing. We only need to make sure that action is available and perform it.
+This sample contains Back, Forward, and Navigation actions. Also the AddressBox contains the navigated URL.
+Here is what the output of this example looks like:
+<img src="/cefsharptutorials/img/URLNavigationUsingCefSharpOutput.png" alt="image-title-here" class="img-responsive" /></p>
 
-
-    <article>
-    
-        
-            
-                <a href="/cefsharptutorials/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/" class="noline">
-                    <img src="/cefsharptutorials/img/CefSharpBasicsDisplayanHTML5CSS3Webpage.png" alt="CefSharpBasicsDisplayanHTML5CSS3Webpage.png">
-                </a>
-            
-        
-    
-    <a href="/cefsharptutorials/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/">
-        <h1>CefSharp Basics. Display an HTML5/CSS3 Webpage</h1>
-    </a>
-    <p class="post_content">.NET Framework contains the default WebBrowser component which allows to display the web pages inside...</p>
-    <!--<ul class="info_list">
-        
-        <li><span class="category">
-            Basics
-        </span>
-        </li>
-        
-        <li> <span class="date"><i class="fa fa-calendar"></i> July 13, 2017</span></li>
-    </ul>-->
-</article>
-
-
-
+                        </div>
+                        
+                        <div class="catsandtags">
+                            
+                            <p class="category">
+                                <span class="name">Categories:</span>
+                                Advanced
+                            </p>
+                            
+                            
+                            <p class="tags">
+                                <span class="name">Tags:</span>
+                                
+                            </p>
+                            
+                        </div>
+                        
+                    </article>
+                    <div class="post_nav">
+                        
+                        <a class="prev" href="/cefsharptutorials/URL-Navigation-Using-CefSharp/"><i class="fa fa-angle-left"></i><span class="short"> prev</span><span class="long">ious post</span></a>
+                        
+                        
+                        <a class="next" href="/cefsharptutorials/URL-Navigation-Using-CefSharp3/"><span class="short">next </span><span class="long">post </span><i class="fa fa-angle-right"></i></a>
+                        
+                    </div>
                 </div>
             </div>
         </section>
