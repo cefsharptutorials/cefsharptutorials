@@ -7,19 +7,16 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>URL Navigation Using CefSharp</title>
+				<title>One-Tabbed Browser with URL Navigation in WPF Application Using CefSharp</title>
 				
 				
-					<description>&lt;p&gt;If we need to create a one-tabbed browser window, we’ll have to add some C# handlers for window elements. But they are very simple too.
-As in the previous tutorial you need to reference CefSharp NuGet package from the NuGet gallery.
-And now we’ll create a simple browser window with navigation.
-Markup of the MainWindow.xaml (bold are the changes of template):&lt;/p&gt;
+					<description>&lt;p&gt;If we need to create a one-tabbed browser application with navigation ability, we should create a WPF Window with a browser element and Control elements, and then add some C# handlers for these elements.&lt;/p&gt;
 
 </description>
 				
 				<pubDate>Fri, 21 Jul 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/URL-Navigation-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/URL-Navigation-Using-CefSharp/</guid>
+				<link>http://localhost:4000/One-Tabbed-Browser-with-URL-Navigation-in-WPF-Application-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://localhost:4000/One-Tabbed-Browser-with-URL-Navigation-in-WPF-Application-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
