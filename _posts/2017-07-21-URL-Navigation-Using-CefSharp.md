@@ -2,6 +2,7 @@
 layout: post
 featimg: CefSharpBasicsDisplayanHTML5CSS3Webpage.png
 title: URL Navigation Using CefSharp
+category: Advanced
 homedisplay: featimg
 ---
 If we need to create a one-tabbed browser window, we'll have to add some C# handlers for window elements. But they are very simple too.
