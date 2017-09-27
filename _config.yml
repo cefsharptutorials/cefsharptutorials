@@ -119,5 +119,6 @@ prose:
           type: "text"
 # Gems
 gems: [jekyll-paginate]
+      [jekyll-sitemap]
 plugins:
   - jekyll-sitemap
