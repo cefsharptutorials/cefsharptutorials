@@ -11,7 +11,7 @@
 				
 				
 					<description>&lt;p&gt;CefSharp provides an ability to use remote debugging. To use this option we’ll need to initialize the CefSharp component with the remote debugging port property.
-Please note, that this port can be used not only with CefSharp, but also with other web browsers.&lt;/p&gt;
+Thus you can use this port not only with CefSharp, but also in another web browser.&lt;/p&gt;
 
 </description>
 				
