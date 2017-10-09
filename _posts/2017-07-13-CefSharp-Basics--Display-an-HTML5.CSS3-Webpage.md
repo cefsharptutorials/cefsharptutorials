@@ -11,7 +11,7 @@ Having done some research and testing and I have found a few solutions for this 
 
 This component is provided in the NuGet.org gallery, so you can add it to your solution via the Package Manager:
 
-![image-title-here](/cefsharptutorials/img/CefSharpBasicsPackageManager.png){:class="img-responsive"}
+![image-title-here](/img/CefSharpBasicsPackageManager.png){:class="img-responsive"}
 
 Please note that you'll need to select a specific x64/x68 configuration because CefSharp should define which native binaries are needed.
 
@@ -21,4 +21,4 @@ After you referenced the CefSharp package, you can use it. The source code of th
 
 And it works!
 
-![image-title-here](/cefsharptutorials/img/CefSharpBasicsOutput.png){:class="img-responsive"}
+![image-title-here](/img/CefSharpBasicsOutput.png){:class="img-responsive"}

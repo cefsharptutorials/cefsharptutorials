@@ -23,4 +23,4 @@ This sample contains Back, Forward, and Navigation actions. The AddressBox conta
 
 The resulting window will look as follows:
 
-![image-title-here](/cefsharptutorials/img/URLNavigationUsingCefSharpOutput.png){:class="img-responsive"}
+![image-title-here](/img/URLNavigationUsingCefSharpOutput.png){:class="img-responsive"}
