@@ -1,7 +1,7 @@
 name: CefSharp Tutorials
 description:
-url: https://cefsharptutorials.github.io #place url
-baseurl: /cefsharptutorials/ #place folder name if site is served in subfolder
+url: http://cefsharptutorials.com/ #place url
+baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
 paginate: 8
 paginate_path: /page/:num/
