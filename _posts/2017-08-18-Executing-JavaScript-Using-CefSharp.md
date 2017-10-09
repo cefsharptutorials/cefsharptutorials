@@ -2,6 +2,7 @@
 layout: post
 featimg: ExecutingJavaScriptHeader.jpg
 title: Executing JavaScript Using CefSharp
+category: JavaScript
 homedisplay: featimg
 ---
 JavaScript handles sufficient part of work with web pages' content, allowing to access, modify, and interact with it.

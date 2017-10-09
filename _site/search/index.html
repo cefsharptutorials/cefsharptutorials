@@ -354,6 +354,24 @@
 <script>
     window.store = {
         
+        "configuring-and-using-remote-debugging-via-cefsharp": {
+            "title": "Configuring and Using Remote Debugging via CefSharp",
+                "author": "",
+                "category": "",
+                "content": "CefSharp provides an ability to use remote debugging. To use this option we’ll need to initialize the CefSharp component with the remote debugging port property.Please note, that this port can be used not only with CefSharp, but also with other web browsers.As in the previous tutorial, we need to initalize the CefSharp library with non-default options, so we will not use the designer. However, we will define some markup in the MainWindow.xaml:Then we’ll implement the behavior of the MainWindow (MainWindow.xaml.cs):Now we can build and launch the application. After the launch we’ll be able to use the remote debugging either named ‘developer tools’ for the source (left) browser in another (right) browser.Here’s a preview of the output:",
+            "url": "/Configuring-and-Using-Remote-Debugging-via-CefSharp/"
+        }
+        ,
+        
+        "injecting-net-object-into-javascript-in-cefsharp": {
+            "title": "Injecting .NET Object into JavaScript in CefSharp",
+                "author": "",
+                "category": "",
+                "content": "If we need to interact with the .NET side from the JavaScript without evaluating any scripts, for example, to handle some events, we can inject the .NET object into the JavaScript side.The restriction of this approach is that the .NET object should be registered in the CefSharp browser before the browser is initialized. Because of this we cannot use a XAML editor for browser creation - in this case the browser will be initialized earlier than we inject the .NET object and an exception will be thrown.So, in this tutorial we will create a browser directly from the C# code. However, there is still one point we need to do in the markup - set the name of the grid which will be used as the browser’s container.The MainWindow.xaml will look as follows:Now we need to create the .NET class which will be injected into the JavaScript side. Later we will call its methods using the JavaScript. The single method of this class will simply show the message box with the text passed through the argument. You can place it near the MainWindow class in the MainWindow.xaml.cs:Then let’s implement the MainWindow behavior:The last step is creating an HTML file which will call the registered .NET object using JavaScript. The source code of the index.html is provided below.Upon building and launching the application, in the loaded window we can type the text we want to be displayed in the message box into the input and press the ‘Show message’ button. The typed text will be handled by the JavaScript side, passed to the .NET object and the .NET object will invoke the MessageBox.Show method with the typed text.The screenshot of the result is provided below.",
+            "url": "/Injecting-NET-Object-into-JavaScript-in-CefSharp/"
+        }
+        ,
+        
         "executing-javascript-using-cefsharp": {
             "title": "Executing JavaScript Using CefSharp",
                 "author": "",
