@@ -2,7 +2,7 @@
 layout: post
 type: youtube
 yt-video-id: gphqZTCWoZE
-title: URL Navigation Using CefSharp – a Videoguide
+title: Videoguide - URL Navigation Using CefSharp
 category: Video
 ---
 Learn how to create a one-tabbed browser with URL navigation in a WPF application using CefSharp.

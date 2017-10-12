@@ -2,7 +2,7 @@
 layout: post
 type: youtube
 yt-video-id: N4gmRVd3Awc
-title: Remote Debugging Using CefSharp – a Videoguide
+title: Videoguide - Remote Debugging Using CefSharp
 category: Video
 ---
 A new videotutorial explains how to conduct remote debugging in CefSharp.
