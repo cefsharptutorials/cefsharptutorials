@@ -271,6 +271,8 @@
                     
                     <li><a href="/category/Basics">Basics</a></li>
                     
+                    <li><a href="/category/Video">Video</a></li>
+                    
                     <li><a href="/category/JavaScript">JavaScript</a></li>
                     
                     
@@ -365,12 +367,39 @@
         }
         ,
         
+        "remote-debugging-using-cefsharp": {
+            "title": "Remote Debugging Using CefSharp – a Videoguide",
+                "author": "",
+                "category": "Video",
+                "content": "A new videotutorial explains how to conduct remote debugging in CefSharp.This post contains the code examples and the text version of this tutorial.",
+            "url": "/Remote-Debugging-Using-CefSharp/"
+        }
+        ,
+        
         "injecting-net-object-into-javascript-in-cefsharp": {
             "title": "Injecting .NET Object into JavaScript in CefSharp",
                 "author": "",
                 "category": "JavaScript",
                 "content": "If we need to interact with the .NET side from the JavaScript without evaluating any scripts, for example, to handle some events, we can inject the .NET object into the JavaScript side.The restriction of this approach is that the .NET object should be registered in the CefSharp browser before the browser is initialized. Because of this we cannot use a XAML editor for browser creation - in this case the browser will be initialized earlier than we inject the .NET object and an exception will be thrown.So, in this tutorial we will create a browser directly from the C# code. However, there is still one point we need to do in the markup - set the name of the grid which will be used as the browser’s container.The MainWindow.xaml will look as follows:Now we need to create the .NET class which will be injected into the JavaScript side. Later we will call its methods using the JavaScript. The single method of this class will simply show the message box with the text passed through the argument. You can place it near the MainWindow class in the MainWindow.xaml.cs:Then let’s implement the MainWindow behavior:The last step is creating an HTML file which will call the registered .NET object using JavaScript. The source code of the index.html is provided below.Upon building and launching the application, in the loaded window we can type the text we want to be displayed in the message box into the input and press the ‘Show message’ button. The typed text will be handled by the JavaScript side, passed to the .NET object and the .NET object will invoke the MessageBox.Show method with the typed text.The screenshot of the result is provided below.",
             "url": "/Injecting-NET-Object-into-JavaScript-in-CefSharp/"
+        }
+        ,
+        
+        "videoguide-injecting-net-object-into-javascript-using-cefsharp": {
+            "title": "Executing JavaScript from the .NET Side Using CefSharp – a Videoguide",
+                "author": "",
+                "category": "Video",
+                "content": "This videotutorial will show you how to inject a .NET object into JavaScript in your WPF applications, using CefSharp.The code examples of this tutorial can be found in this article.",
+            "url": "/Videoguide-Injecting-NET-Object-into-JavaScript-Using-CefSharp/"
+        }
+        ,
+        
+        "videoguide-executing-javascript-from-net-side-using-cefsharp": {
+            "title": "Executing JavaScript from the .NET Side Using CefSharp – a Videoguide",
+                "author": "",
+                "category": "Video",
+                "content": "Learn how to execute JavaScript from the .NET side on the fly using CefSharp.See the text version with the code examples in this post.",
+            "url": "/Videoguide-Executing-JavaScript-from-NET-side-Using-CefSharp/"
         }
         ,
         
@@ -383,12 +412,30 @@
         }
         ,
         
+        "videoguide-url-navigation-using-cefsharp": {
+            "title": "URL Navigation Using CefSharp – a Videoguide",
+                "author": "",
+                "category": "Video",
+                "content": "Learn how to create a one-tabbed browser with URL navigation in a WPF application using CefSharp.Find text  version here.",
+            "url": "/Videoguide-URL-Navigation-Using-CefSharp/"
+        }
+        ,
+        
         "one-tabbed-browser-with-url-navigation-in-wpf-application-using-cefsharp": {
             "title": "One-Tabbed Browser with URL Navigation in WPF Application Using CefSharp",
                 "author": "",
                 "category": "Basics",
                 "content": "If we need to create a one-tabbed browser application with navigation ability, we should create a WPF Window with a browser element and Control elements, and then add some C# handlers for these elements.As in the previous tutorial we’ll need to reference CefSharp NuGet package from the NuGet gallery.And now we’ll create a simple browser window with navigation.Markup of the MainWindow.xaml:The C# source code of the MainWindow:As you can see, the explicit actions with the Browser are very simple and self-describing. We only need to check that action is available and perform it.This sample contains Back, Forward, and Navigation actions. The AddressBox contains the navigated URL.The resulting window will look as follows:",
             "url": "/One-Tabbed-Browser-with-URL-Navigation-in-WPF-Application-Using-CefSharp/"
+        }
+        ,
+        
+        "videoguide-displaying-html5-css3-in-cefsharp": {
+            "title": "Displaying HTML5/CSS3 in CefSharp – a Videoguide",
+                "author": "",
+                "category": "Video",
+                "content": "This video shows how to display HTML5 and CSS3 pages in WPF applications using CefSharp.For the text  version see this this post.",
+            "url": "/Videoguide-Displaying-HTML5.CSS3-in-CefSharp/"
         }
         ,
         
