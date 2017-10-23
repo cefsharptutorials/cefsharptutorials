@@ -2,7 +2,7 @@
 layout: post
 type: youtube
 yt-video-id: gphqZTCWoZE
-title: Videoguide - Displaying HTML5/CSS3 in CefSharp
+title: Videoguide|Displaying HTML5/CSS3 in CefSharp
 category: Video
 ---
 This video shows how to display HTML5 and CSS3 pages in WPF applications using CefSharp.

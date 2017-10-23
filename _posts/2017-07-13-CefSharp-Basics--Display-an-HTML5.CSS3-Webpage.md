@@ -1,6 +1,6 @@
 ---
 layout: post
-featimg: CefSharpBasicsHeader.jpg
+featimg: CefSharpBasicsHeader.png
 title: CefSharp Basics. Display an HTML5/CSS3 Webpage
 category: Basics
 homedisplay: featimg

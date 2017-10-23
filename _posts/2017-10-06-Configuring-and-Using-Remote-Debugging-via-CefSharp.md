@@ -1,6 +1,6 @@
 ---
 layout: post
-featimg: RemoteDebuggingHeader.jpg
+featimg: RemoteDebuggingHeader.png
 title: Configuring and Using Remote Debugging via CefSharp
 category: Basics
 homedisplay: featimg
