@@ -3,11 +3,11 @@
 	<channel>
 		<title>CefSharp Tutorials</title>
 		<description></description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://cefsharptutorials.com/</link>
+		<atom:link href="http://cefsharptutorials.com//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Videoguide - Remote Debugging Using CefSharp</title>
+				<title>Videoguide | Remote Debugging Using CefSharp</title>
 				
 				
 					<description>&lt;p&gt;A new videotutorial explains how to conduct remote debugging in CefSharp.&lt;/p&gt;
@@ -15,8 +15,8 @@
 </description>
 				
 				<pubDate>Sun, 08 Oct 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Remote-Debugging-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Remote-Debugging-Using-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Videoguide-Remote-Debugging-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Videoguide-Remote-Debugging-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
@@ -29,12 +29,12 @@ Thus you can use this port not only with CefSharp, but also in another web brows
 </description>
 				
 				<pubDate>Fri, 06 Oct 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Configuring-and-Using-Remote-Debugging-via-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Configuring-and-Using-Remote-Debugging-via-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Configuring-and-Using-Remote-Debugging-via-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Configuring-and-Using-Remote-Debugging-via-CefSharp/</guid>
 			</item>
 		
 			<item>
-				<title>Videoguide - Injecting a .NET Object into JavaScript Using СefSharp</title>
+				<title>Videoguide | Injecting a .NET Object into JavaScript Using СefSharp</title>
 				
 				
 					<description>&lt;p&gt;This videotutorial will show you how to inject a .NET object into JavaScript in your WPF applications, using CefSharp.&lt;/p&gt;
@@ -42,8 +42,8 @@ Thus you can use this port not only with CefSharp, but also in another web brows
 </description>
 				
 				<pubDate>Thu, 21 Sep 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Videoguide-Injecting-NET-Object-into-JavaScript-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Videoguide-Injecting-NET-Object-into-JavaScript-Using-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Videoguide-Injecting-NET-Object-into-JavaScript-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Videoguide-Injecting-NET-Object-into-JavaScript-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
@@ -55,12 +55,12 @@ Thus you can use this port not only with CefSharp, but also in another web brows
 </description>
 				
 				<pubDate>Wed, 20 Sep 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Injecting-NET-Object-into-JavaScript-in-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Injecting-NET-Object-into-JavaScript-in-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Injecting-NET-Object-into-JavaScript-in-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Injecting-NET-Object-into-JavaScript-in-CefSharp/</guid>
 			</item>
 		
 			<item>
-				<title>Videoguide - Executing JavaScript from the .NET Side Using CefSharp</title>
+				<title>Videoguide | Executing JavaScript from the .NET Side Using CefSharp</title>
 				
 				
 					<description>&lt;p&gt;Learn how to execute JavaScript from the .NET side on the fly using CefSharp.&lt;/p&gt;
@@ -68,8 +68,8 @@ Thus you can use this port not only with CefSharp, but also in another web brows
 </description>
 				
 				<pubDate>Wed, 02 Aug 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Videoguide-Executing-JavaScript-from-NET-side-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Videoguide-Executing-JavaScript-from-NET-side-Using-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Videoguide-Executing-JavaScript-from-NET-side-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Videoguide-Executing-JavaScript-from-NET-side-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
@@ -82,12 +82,12 @@ In this tutorial we’ll create a WPF application which can execute custom JavaS
 </description>
 				
 				<pubDate>Tue, 01 Aug 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Executing-JavaScript-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Executing-JavaScript-Using-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Executing-JavaScript-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Executing-JavaScript-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
-				<title>Videoguide - URL Navigation Using CefSharp</title>
+				<title>Videoguide | URL Navigation Using CefSharp</title>
 				
 				
 					<description>&lt;p&gt;Learn how to create a one-tabbed browser with URL navigation in a WPF application using CefSharp.&lt;/p&gt;
@@ -95,8 +95,8 @@ In this tutorial we’ll create a WPF application which can execute custom JavaS
 </description>
 				
 				<pubDate>Wed, 26 Jul 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Videoguide-URL-Navigation-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Videoguide-URL-Navigation-Using-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Videoguide-URL-Navigation-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Videoguide-URL-Navigation-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
@@ -108,8 +108,8 @@ In this tutorial we’ll create a WPF application which can execute custom JavaS
 </description>
 				
 				<pubDate>Fri, 21 Jul 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/One-Tabbed-Browser-with-URL-Navigation-in-WPF-Application-Using-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/One-Tabbed-Browser-with-URL-Navigation-in-WPF-Application-Using-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//One-Tabbed-Browser-with-URL-Navigation-in-WPF-Application-Using-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//One-Tabbed-Browser-with-URL-Navigation-in-WPF-Application-Using-CefSharp/</guid>
 			</item>
 		
 			<item>
@@ -121,8 +121,8 @@ In this tutorial we’ll create a WPF application which can execute custom JavaS
 </description>
 				
 				<pubDate>Wed, 19 Jul 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/Videoguide-Displaying-HTML5.CSS3-in-CefSharp/</link>
-				<guid isPermaLink="true">http://localhost:4000/Videoguide-Displaying-HTML5.CSS3-in-CefSharp/</guid>
+				<link>http://cefsharptutorials.com//Videoguide-Displaying-HTML5.CSS3-in-CefSharp/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//Videoguide-Displaying-HTML5.CSS3-in-CefSharp/</guid>
 			</item>
 		
 			<item>
@@ -134,8 +134,8 @@ In this tutorial we’ll create a WPF application which can execute custom JavaS
 </description>
 				
 				<pubDate>Thu, 13 Jul 2017 00:00:00 +0300</pubDate>
-				<link>http://localhost:4000/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</link>
-				<guid isPermaLink="true">http://localhost:4000/CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</guid>
+				<link>http://cefsharptutorials.com//CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</link>
+				<guid isPermaLink="true">http://cefsharptutorials.com//CefSharp-Basics-Display-an-HTML5.CSS3-Webpage/</guid>
 			</item>
 		
 	</channel>

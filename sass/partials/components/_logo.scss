@@ -12,9 +12,9 @@
 }
 
 .twister{
-    font-size:4vw;
+    font-size:3vw;
     font-weight: $light;
-    line-height:125%;
+    line-height: 50px;
     fill:$coal;
     transition: .3s all ease;
 
@@ -23,7 +23,8 @@
     }
 
     @media screen and (max-width: 640px){
-        font-size:30px;
+        font-size:22px;
+        line-height: 40px;
     }
 }
 

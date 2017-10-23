@@ -52,11 +52,16 @@
             left: 0;
             transition: .3s all ease-in-out;
             display: block;
-            max-width: 750px;
-            width: 100%;
 
             svg{
-                @extend %paddinghack;
+                float: left;
+                width: 50px;
+                height: 100%;
+                margin-right: 16px;
+
+                @media screen and (max-width: 640px){
+                    width: 40px;
+                }
             }
         }
 
