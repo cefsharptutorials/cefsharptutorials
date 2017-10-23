@@ -3,7 +3,7 @@ layout: post
 featimg: CefSharpBasicsHeader.png
 title: CefSharp Basics. Display an HTML5/CSS3 Webpage
 tags: [HTML5, CSS3, WPF]
-category: Articles
+category: articles
 homedisplay: featimg
 ---
 .NET Framework contains the default WebBrowser component which allows to display the web pages inside of desktop applications. But if you need to display the perfect interactive web page with HTML5 / CSS3 or other fancy features, you’ll face a lot of complications, since the built-in WebBrowser does not support these standards.

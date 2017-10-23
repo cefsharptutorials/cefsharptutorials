@@ -3,7 +3,7 @@ layout: post
 featimg: RemoteDebuggingHeader.png
 title: Configuring and Using Remote Debugging via CefSharp
 tags: [Chromium]
-category: Articles
+category: articles
 homedisplay: featimg
 ---
 CefSharp provides an ability to use remote debugging. To use this option we'll need to initialize the CefSharp component with the remote debugging port property.
