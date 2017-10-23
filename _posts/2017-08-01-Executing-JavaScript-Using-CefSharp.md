@@ -3,7 +3,7 @@ layout: post
 featimg: ExecutingJavaScriptHeader.jpg
 title: Executing JavaScript Using CefSharp
 tags: [JavaScript, WPF]
-category: articles
+category: Articles
 homedisplay: featimg
 ---
 JavaScript handles sufficient part of work with web pages' content, allowing to access, modify, and interact with it.

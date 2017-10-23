@@ -4,7 +4,7 @@ type: youtube
 yt-video-id: Gmdx0cGnNsE
 title: Videoguide | Executing JavaScript from the .NET Side Using CefSharp
 tags: [JavaScript, WPF]
-category: videoguides
+category: Videoguides
 ---
 Learn how to execute JavaScript from the .NET side on the fly using CefSharp.
 
