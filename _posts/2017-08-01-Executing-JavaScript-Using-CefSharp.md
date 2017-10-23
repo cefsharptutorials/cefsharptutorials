@@ -2,6 +2,7 @@
 layout: post
 featimg: ExecutingJavaScriptHeader.jpg
 title: Executing JavaScript Using CefSharp
+tags: [JavaScript, WPF]
 category: Articles
 homedisplay: featimg
 ---

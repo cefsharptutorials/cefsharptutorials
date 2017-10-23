@@ -3,6 +3,7 @@ layout: post
 type: youtube
 yt-video-id: T10Xfe4bepo
 title: Videoguide | Injecting a .NET Object into JavaScript Using СefSharp
+tags: [JavaScript, WPF]
 category: Videoguides
 ---
 This videotutorial will show you how to inject a .NET object into JavaScript in your WPF applications, using CefSharp.

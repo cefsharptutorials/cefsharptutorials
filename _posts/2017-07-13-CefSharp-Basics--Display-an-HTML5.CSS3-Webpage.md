@@ -2,6 +2,7 @@
 layout: post
 featimg: CefSharpBasicsHeader.png
 title: CefSharp Basics. Display an HTML5/CSS3 Webpage
+tags: [HTML5, CSS3, WPF]
 category: Articles
 homedisplay: featimg
 ---

@@ -3,6 +3,7 @@ layout: post
 type: youtube
 yt-video-id: N4gmRVd3Awc
 title: Videoguide | Remote Debugging Using CefSharp
+tags: [Chromium]
 category: Videoguides
 ---
 A new videotutorial explains how to conduct remote debugging in CefSharp.

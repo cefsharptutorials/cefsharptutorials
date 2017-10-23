@@ -2,6 +2,7 @@
 layout: post
 featimg: InjectingNETintoJavaScriptHeader.jpg
 title: Injecting .NET Object into JavaScript in CefSharp
+tags: [JavaScript, WPF]
 category: Articles
 homedisplay: featimg
 ---
