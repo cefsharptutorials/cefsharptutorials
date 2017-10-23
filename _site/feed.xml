@@ -113,7 +113,7 @@ In this tutorial we’ll create a WPF application which can execute custom JavaS
 			</item>
 		
 			<item>
-				<title>Videoguide|Displaying HTML5/CSS3 in CefSharp</title>
+				<title>Videoguide | Displaying HTML5/CSS3 in CefSharp</title>
 				
 				
 					<description>&lt;p&gt;This video shows how to display HTML5 and CSS3 pages in WPF applications using CefSharp.&lt;/p&gt;
