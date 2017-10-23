@@ -2,7 +2,7 @@
 layout: post
 featimg: URLNavigationHeader.jpg
 title: One-Tabbed Browser with URL Navigation in WPF Application Using CefSharp
-category: Basics
+category: Articles
 homedisplay: featimg
 ---
 If we need to create a one-tabbed browser application with navigation ability, we should create a WPF Window with a browser element and Control elements, and then add some C# handlers for these elements.

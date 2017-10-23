@@ -2,7 +2,7 @@
 layout: post
 featimg: InjectingNETintoJavaScriptHeader.jpg
 title: Injecting .NET Object into JavaScript in CefSharp
-category: JavaScript
+category: Articles
 homedisplay: featimg
 ---
 If we need to interact with the .NET side from the JavaScript without evaluating any scripts, for example, to handle some events, we can inject the .NET object into the JavaScript side.
